@@ -12,9 +12,9 @@ int main()
 		{
 			if (a[k] > b[k]) one++;
 			if (b[k] > a[k]) two++;
-			
+			if (a[k] == b[k]) continue; 
 		}
 
-	cout << one << '\t' << two;
+	cout << one << two;
 
 }
